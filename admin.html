@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel | Seller</title>
+    <style>
+        body{
+            background-color: gold;
+        }
+        h1{
+            text-align: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            gap: 20px;
+            margin: auto;
+        }
+       
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        
+        
+     <form >
+        <h1>List Your Product</h1>
+        <input type="text" id="name" placeholder="Product Name">
+        <input type="text" id="category" placeholder="Category">
+        <input type="text" id="image" placeholder="Image URL">
+        <input type="number" id="price" placeholder="Price">
+        <select  id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <input type="text" id="sold" placeholder="Sold True/False" value="False">
+        <input type="submit" value="Add the Product" id="add">
+     </form>
+
+    </div>
+    
+</body>
+<script src="./admin.js"></script>
+</html>
